@@ -36,7 +36,7 @@ public class SendMail {
         Session mailSession = Session.getInstance(props,new MyAuthenticator(from,fromUserPassword));  
   
         // 第二步：编写消息  
-        System.out.println("编写消息from——to:" + from + "——" + to);  
+        System.out.println("编写消息from——to:" + from + "—-—" + to);  
   
         InternetAddress fromAddress = new InternetAddress(from);  
         InternetAddress toAddress = new InternetAddress(to);  
