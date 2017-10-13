@@ -54,7 +54,7 @@ public class SendMail {
         Transport transport = mailSession.getTransport("smtp");  
         transport.connect(smtpHost,"chaofeng19861126", fromUserPassword);  
         transport.send(message, message.getRecipients(RecipientType.TO));  
-        System.out.println("e-ggw");  
+        System.out.println("e-ggw-第二次");  
     }  
   
     public static void main(String[] args) {  
